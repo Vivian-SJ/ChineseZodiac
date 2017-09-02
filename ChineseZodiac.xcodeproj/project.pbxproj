@@ -47,6 +47,7 @@
 		5E44D3641F2AB8D400DF98EF /* ChineseZodiacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseZodiacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E44D3681F2AB8D400DF98EF /* ChineseZodiacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseZodiacUITests.swift; sourceTree = "<group>"; };
 		5E44D36A1F2AB8D400DF98EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E44D3761F5AA81800DF98EF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				5E44D34F1F2AB8D400DF98EF /* Assets.xcassets */,
 				5E44D3511F2AB8D400DF98EF /* LaunchScreen.storyboard */,
 				5E44D3541F2AB8D400DF98EF /* Info.plist */,
+				5E44D3761F5AA81800DF98EF /* MyPlayground.playground */,
 			);
 			path = ChineseZodiac;
 			sourceTree = "<group>";
@@ -505,6 +507,7 @@
 				5E44D36F1F2AB8D400DF98EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E44D3701F2AB8D400DF98EF /* Build configuration list for PBXNativeTarget "ChineseZodiacTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +516,7 @@
 				5E44D3721F2AB8D400DF98EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E44D3731F2AB8D400DF98EF /* Build configuration list for PBXNativeTarget "ChineseZodiacUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +525,7 @@
 				5E44D3751F2AB8D400DF98EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

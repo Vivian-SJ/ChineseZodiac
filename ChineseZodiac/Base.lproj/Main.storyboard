@@ -37,6 +37,9 @@
                                 <state key="normal" title="确定">
                                     <color key="titleShadowColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="okDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Keh-Ll-01e"/>
+                                </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="0" id="zQG-PI-of4">
                                 <rect key="frame" x="59" y="223" width="256" height="256"/>
@@ -45,6 +48,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="image" destination="zQG-PI-of4" id="nKx-4o-pBN"/>
+                        <outlet property="year" destination="1J8-zK-yth" id="oVc-RJ-H8A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
